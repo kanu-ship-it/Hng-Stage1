@@ -1,0 +1,215 @@
+
+*{
+  margin: 0px 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(129, 90, 90);
+
+}
+
+.container{
+  height: 100vh;
+ 
+
+}
+
+
+.header{
+  height: 10%;
+  
+  display: flex;
+  flex-direction: row;
+  /*border: 2px solid rgb(43, 197, 56);*/
+  justify-content: flex-end;
+  align-items: center;
+  margin: 15px;
+}
+
+.firstLink__1 #hndLink{
+  text-decoration: none;
+}
+.firstLink__1 #keywordLink{
+  text-decoration: none;
+}
+.firstLink__1 #scrapeanywebLink{
+  text-decoration: none;
+}
+
+.anchor{
+  /*color: red;
+  text-decoration: none;
+  padding-left: 70px;
+  font-size: 2.5vw;*/
+  display: flex;
+  flex-direction: row;
+  gap: 15vh;
+  text-decoration: none;
+}
+
+
+.header__logo{
+   font-size: 5vh;
+}
+.header__logo span{
+color:blue
+}
+
+.main{
+height: 80vh;
+width:90vw ;
+/*border: 9px solid rgb(9, 5, 247);*/
+display: flex;
+flex-direction: row;
+
+align-items: center;
+
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+  background-position:left center ;
+} 
+
+
+@media(max-width : 650px){
+  .header__logo{
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    
+
+
+  }
+  .anchor{
+    display:flex ;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: flex-end;
+    gap: 1%;
+  }
+  .main{
+    width: 80vw;
+    height: 155vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  img{
+    border-radius: 100%;
+  }
+  .body{
+    align-content: center;
+  }
+  .footer{
+    justify-content: center;
+    margin: 0px;
+
+  }
+  #email{
+    width: 45px;
+    height: 45px;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+  }
+  #slackName{
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+.footer{
+height: 10%;
+/*border: 2px solid red;*/
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+margin-right:30% ;
+gap: 20px;
+
+}
+
+#email {
+align-items: center;
+display: flex;
+flex-direction: column;
+text-decoration: none;
+
+}
+#slackName{
+  align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+#slackDisplayEmail{
+  text-decoration: none;
+}
+#slackDisplayName{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 95.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #188fe4;
+    line-height: 1.9;
+    background-color: #6c6d59;
+    display: flex;
+    text-align: center;
+    height: 70rem;
+    
+    border: 2px solid blueviolet;
+    
+  }
+
+ img{
+   max-width: 100%;
+    height: auto;
+
+ } 
+
+#slackDisplayName{
+    color:blue;
+
+} 
+#mydetails{
+    border: 2px solid red;
+    margin: 6px;
+    text-align: center;
+    width: 30rem;
+    height: 33rem;
+
+
+}*/
